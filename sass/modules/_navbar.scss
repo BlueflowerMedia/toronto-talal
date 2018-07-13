@@ -78,3 +78,47 @@ nav#site-navigation .nav-right {}
 		}
 	}
 }
+
+.media-icons {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	z-index: 1000;
+	.fa-animated {
+		padding-top: 15px;
+		cursor: pointer;
+		margin-left: 25px;
+		color: #fff;
+		font-size: 2.5em;
+		text-decoration: none;
+	}
+}
+
+
+body > div.media-icons > a.fab.fa-instagram.fa-animated:hover {
+	color: #0B5589;
+}
+body > div.media-icons > a.fab.fa-instagram.fa-animated:active {
+	color: yellow;
+}
+
+body > div.media-icons > a.fab.fa-youtube.fa-animated:hover {
+	color: #FF0000;
+}
+body > div.media-icons > a.fab.fa-youtube.fa-animated:active {
+	color: yellow;
+}
+
+body > div.media-icons > a.fab.fa-spotify.fa-animated:hover {
+	color: #1ED760;
+}
+body > div.media-icons > a.fab.fa-spotify.fa-animated:active {
+	color: yellow;
+}
+
+body > div.media-icons > a.fab.fa-soundcloud.fa-animated:hover {
+	color: #FF6C00;
+}
+body > div.media-icons > a.fab.fa-soundcloud.fa-animated:active {
+	color: yellow;
+}

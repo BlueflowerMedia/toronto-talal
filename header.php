@@ -16,35 +16,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<!-- Section - Social Media Icons -->
+	<div class="media-icons">
+		<a href="https://www.instagram.com/torontotalal/" target="_blank" class="fab fa-instagram fa-animated"></a>
+		<a href="https://www.youtube.com/channel/UCN0iDqoV0ySCk91Gm3ZP4lw" target="_blank" class="fab fa-youtube fa-animated"></a>
+		<a href="https://open.spotify.com/artist/1XinmmcL7MASIzWiocQdRK" target="_blank" class="fab fa-spotify fa-animated"></a>
+		<a href="https://soundcloud.com/torontotalal" target="_blank" class="fab fa-soundcloud fa-animated"></a>
+	</div>
 	<?php wp_head(); ?>
 </head>
-
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'blueflowermedia' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="main-navigation fixed container-navbar">
-      <!-- navbar left -->
-			<div class="nav-left">
-        <?php the_custom_logo(); ?>
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><h3 class="site-title"><?php bloginfo( 'name' ); ?></h3></a>
-      </div>
-      <!-- navbar middle -->
-      <div class="nav-middle">
-        <?php
-          wp_nav_menu( array(
-            'theme_location' => 'menu-1',
-            'menu_id'        => 'primary-menu',
-          ) );
-        ?>
-      </div>
-      <!-- navbar right -->
-      <div class="nav-right">
-        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'blueflowermedia' ); ?></button>
-				<a href=""><button class="nav-contact" type="button" name="button">Contact Us</button></a>
-      </div>
-		</nav>
-	</header>
-
-	<div id="content" class="site-content">

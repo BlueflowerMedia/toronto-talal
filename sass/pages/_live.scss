@@ -1,0 +1,51 @@
+.bak-pic {
+  img {
+  background-color: #7A2A3C;
+  display: flex;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 200%;
+  min-height: 200%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  }
+}
+.backpage {
+  margin-left: 2vw;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+  }
+  p {
+    display: inline-block;
+    margin-left: 1vw;;
+    font-size: 2vw;
+    color: white;
+  }
+}
+
+.container-live {
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+table.gigpress-table {
+  th {
+    color: white;
+  }
+}
+
+.gigpress-artist-heading {
+  color: white;
+}
+
+body > div.container-live > table:nth-child(n) > tbody:nth-child(n) > tr > th {
+  color: black;
+}

@@ -1,0 +1,64 @@
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+  #myVideo {
+    @include position(absolute, $top: 0, $left: 0);
+    z-index: -100;
+    max-height: 100%;
+    video {
+      // width: 100%;
+      @include mobile {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+
+   .container-content {
+     .talal {
+       img:hover {
+        color: green;
+        background-color: transparent;
+      }
+      img:active {
+          color: yellow;
+          background-color: transparent;
+      }
+        #pic-logo {
+          width: 18em;
+          height: auto;
+          background: transparent;
+          -webkit-filter: invert(100%);
+        }
+
+      }
+     .para {
+       padding-top: 2em;
+       text-align: center;
+       font-style: italic;
+       a {
+         font-family: 'Exo 2', sans-serif;
+         color: white;
+         font-size: 2.5em;
+         text-decoration: none;
+         display: block;
+         padding: 0.4em;
+       }
+       a:hover {
+        color: green;
+        background-color: transparent;
+      }
+
+      a:active {
+          color: yellow;
+          background-color: transparent;
+      }
+     }
+   }
+ }
