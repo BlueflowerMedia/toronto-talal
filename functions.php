@@ -124,9 +124,7 @@ function blueflowermedia_scripts() {
 
 	// wp_enqueue_style( 'blueflowermedia-owlcarouselcss', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' );
 
-	// wp_enqueue_style( 'blueflowermedia-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css' );
-
-
+	wp_enqueue_style( 'blueflowermedia-animatecss', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'blueflowermedia-owlcarouselcss', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
 	wp_enqueue_style( 'blueflowermedia-style', get_stylesheet_uri() );
 

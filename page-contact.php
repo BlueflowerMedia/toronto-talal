@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 <div class="contactus-container">
-  <div class="previous-part">
-    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">&#8592;</a>
-    <p>Home</p>
+  <div>.</div>
+  <div class="moving-arrow">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">&#8592; Home</a>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
   </div>
 
   <div class="contactForm">
