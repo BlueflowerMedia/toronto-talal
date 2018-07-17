@@ -6,9 +6,9 @@ const movingArrow = document.querySelector('.moving-arrow');
 
 let animation = anime({
   targets: movingArrow,
-  translateX: '-1%',
+  translateX: '-30%',
   direction: 'alternate',
-  duration: 500,
+  duration:300,
   loop: true,
   easing: 'easeInCubic',
   autoplay: false
