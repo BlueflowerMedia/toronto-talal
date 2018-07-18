@@ -12,7 +12,7 @@
     z-index: -100;
     max-height: 100%;
     video {
-      @include mobile {
+      @media screen and (max-width: 1025px) {
         width: auto;
         height: 100%;
       }

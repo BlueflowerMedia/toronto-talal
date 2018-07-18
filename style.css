@@ -1410,7 +1410,6 @@ body > div.media-icons > a.fab.fa-soundcloud.fa-animated:active {
 
 footer p {
   color: white;
-  width: 500px;
   font-family: 'Exo 2', sans-serif;
   font-style: italic; }
 
@@ -1433,7 +1432,7 @@ footer {
     left: 0;
     z-index: -100;
     max-height: 100%; }
-    @media (max-width: 760px) {
+    @media screen and (max-width: 1025px) {
       .main-container #myVideo video {
         width: auto;
         height: 100%; } }
@@ -1486,26 +1485,26 @@ body {
     .contactus-container .moving-arrow a {
       text-decoration: none;
       color: white;
-      font-size: 1.8vw; }
+      font-size: 2em; }
   .contactus-container .contactForm {
-    padding-top: 8vh;
     margin: 0 auto; }
     .contactus-container .contactForm .text p {
       text-align: center;
-      font-size: 1vw;
+      font-size: 1.5em;
       color: white; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (min-width: 768px) {
         .contactus-container .contactForm .text p {
-          font-size: 1.8vw; } }
-      @media screen and (max-width: 767px) {
+          font-size: 1.5em; } }
+      @media (max-width: 760px) {
         .contactus-container .contactForm .text p {
-          font-size: 3vw; } }
+          font-size: 1.1em; } }
     .contactus-container .contactForm .text #first {
-      font-size: 1.5vw;
       margin-bottom: 0; }
     .contactus-container .contactForm .text #second {
-      margin-top: 2vh;
-      font-size: 1.5vw; }
+      margin-top: 0.4em; }
+    @media screen and (max-width: 1024px) {
+      .contactus-container .contactForm {
+        padding-top: 5em; } }
   .contactus-container .main-form {
     display: flex;
     margin: 0 auto; }
@@ -1517,23 +1516,26 @@ body {
         display: flex;
         flex-flow: row wrap;
         height: 4em; }
+        @media (max-width: 760px) {
+          .contactus-container .main-form .main-form-container .one-row {
+            display: inline; } }
         .contactus-container .main-form .main-form-container .one-row .one-half {
           flex: 1; }
         .contactus-container .main-form .main-form-container .one-row .first {
           margin-right: 10px; }
+          @media (max-width: 760px) {
+            .contactus-container .main-form .main-form-container .one-row .first {
+              margin-right: 0; } }
         .contactus-container .main-form .main-form-container .one-row input {
           background-color: black;
           color: white;
           border-color: white;
-          border-width: .15vw;
           padding: 1vw;
           outline: none; }
       .contactus-container .main-form .main-form-container textarea {
         background-color: black;
         color: white;
-        padding: 1vw;
         border-color: white;
-        border-width: .15vw;
         width: 100%;
         outline: none; }
       .contactus-container .main-form .main-form-container .wpcf7-submit {
@@ -1543,20 +1545,42 @@ body {
         font-size: 1.3rem;
         font-family: "Source Sans Pro", sans-serif;
         padding: 1vw;
-        border-color: white;
-        border-width: .15vw; }
+        border-color: white; }
         @media screen and (max-width: 600px) {
           .contactus-container .main-form .main-form-container .wpcf7-submit {
             width: 27vw;
             border-radius: 30px; } }
 
-#wpcf7-f5-o1 > form > p {
-  margin-top: 0.5vh;
-  margin-bottom: 0vh; }
-
 #wpcf7-f5-o1 > form > div.text-area {
-  padding-top: 1vh; }
+  padding-top: 2.8em; }
 
+#wpcf7-f5-o1 > form > div.one-row {
+  padding-top: 1em; }
+
+@media (max-width: 760px) {
+  #wpcf7-f5-o1 > form > div.one-row > div:nth-child(2) {
+    padding-top: 0.8em; }
+
+  #wpcf7-f5-o1 > form > div.text-area {
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px; } }
+@media screen and (max-height: 411px) {
+  body > div.contactus-container > div.contactForm {
+    padding-top: 0px; }
+
+  #wpcf7-f5-o1 > form > div.one-row {
+    padding-top: 0px; }
+
+  #wpcf7-f5-o1 > form > div.text-area {
+    padding-top: 0px; }
+
+  #wpcf7-f5-o1 > form > div.text-area > span > textarea {
+    height: 138px; } }
+@media screen and (max-height: 320px) {
+  #wpcf7-f5-o1 > form > div.text-area > span > textarea {
+    height: 88px; } }
 .live-container {
   height: 100vh;
   width: 100vw;
@@ -1573,7 +1597,7 @@ body {
   .moving-arrow a {
     text-decoration: none;
     color: white;
-    font-size: 1.8vw; }
+    font-size: 2em; }
 
 .container-live {
   display: flex;
@@ -1605,7 +1629,7 @@ body > div.live-container > div.container-live > table > tbody:nth-child(n) > tr
   .moving-arrow a {
     text-decoration: none;
     color: white;
-    font-size: 1.8vw; }
+    font-size: 2em; }
 
 .container-track {
   display: flex;
