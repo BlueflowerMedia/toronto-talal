@@ -4,7 +4,7 @@
     <!-- Section - Background Video -->
     <div id="myVideo">
       <video autoplay muted loop >
-        <source src="<?php echo get_template_directory_uri(); ?>/videos/videos.mp4" type="video/mp4">
+        <source src="<?php echo get_template_directory_uri(); ?>/videos.mp4" type="video/mp4">
       </video>
     </div>
     <!-- Section - Content -->
