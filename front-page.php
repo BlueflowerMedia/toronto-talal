@@ -3,11 +3,10 @@
   <div class="main-container">
     <!-- Section - Background Video -->
     <div id="myVideo">
-      <video playsinline autoplay muted loop >
+      <video autoplay muted loop >
         <source src="<?php echo get_template_directory_uri(); ?>/videos/videos.mp4" type="video/mp4">
       </video>
     </div>
-
     <!-- Section - Content -->
     <div class="container-content">
       <div class="talal">
