@@ -1470,6 +1470,15 @@ footer {
 body {
   position: relative; }
 
+h3 {
+  position: absolute;
+  top: 0;
+  color: white;
+  left: 844px;
+  font-size: 3em;
+  margin-top: 20px;
+  z-index: 1000; }
+
 .contactus-container {
   height: 100vh;
   width: 100vw;
@@ -1485,7 +1494,17 @@ body {
     .contactus-container .moving-arrow a {
       text-decoration: none;
       color: white;
-      font-size: 2em; }
+      font-size: 3em;
+      font-weight: bolder; }
+  .contactus-container #text {
+    color: white;
+    display: inline-block;
+    font-size: 2em;
+    position: absolute;
+    top: 0;
+    left: 95px;
+    margin-top: 28px;
+    text-decoration: none; }
   .contactus-container .contactForm {
     margin: 0 auto; }
     .contactus-container .contactForm .text p {
@@ -1581,6 +1600,15 @@ body {
 @media screen and (max-height: 320px) {
   #wpcf7-f5-o1 > form > div.text-area > span > textarea {
     height: 88px; } }
+h3 {
+  position: absolute;
+  top: 0;
+  color: white;
+  left: 844px;
+  font-size: 3em;
+  margin-top: 20px;
+  z-index: 1000; }
+
 .live-container {
   height: 100vh;
   width: 100vw;
@@ -1597,7 +1625,18 @@ body {
   .moving-arrow a {
     text-decoration: none;
     color: white;
-    font-size: 2em; }
+    font-size: 3em;
+    font-weight: bolder; }
+
+#text {
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 95px;
+  margin-top: 28px;
+  text-decoration: none; }
 
 .container-live {
   display: flex;
@@ -1619,6 +1658,14 @@ body > div.live-container > table:nth-child(n) > tbody:nth-child(n) > tr > th {
 body > div.live-container > div.container-live > table > tbody:nth-child(n) > tr > th {
   background-color: grey; }
 
+h3 {
+  position: absolute;
+  top: 0;
+  color: white;
+  left: 844px;
+  font-size: 3em;
+  margin-top: 20px; }
+
 .music-container {
   background-image: url(./Images/talal-tiled-background.svg);
   background-color: #7A2A3C; }
@@ -1629,7 +1676,18 @@ body > div.live-container > div.container-live > table > tbody:nth-child(n) > tr
   .moving-arrow a {
     text-decoration: none;
     color: white;
-    font-size: 2em; }
+    font-size: 3em;
+    font-weight: bolder; }
+
+#text {
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 95px;
+  margin-top: 28px;
+  text-decoration: none; }
 
 .container-track {
   display: flex;

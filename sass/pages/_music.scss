@@ -1,3 +1,11 @@
+h3 {
+  position: absolute;
+  top: 0;
+  color: white;
+  left: 844px;
+  font-size: 3em;
+  margin-top: 20px;
+}
 .music-container {
   background-image: url(./Images/talal-tiled-background.svg);
   background-color: #7A2A3C;
@@ -9,8 +17,20 @@
   a {
     text-decoration: none;
     color: white;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: bolder;
   }
+}
+
+#text {
+  color: white;
+  display: inline-block;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 95px;
+  margin-top: 28px;
+  text-decoration: none;
 }
 
 
