@@ -1470,13 +1470,13 @@ footer {
 body {
   position: relative; }
 
-h3 {
+.contact {
   position: absolute;
   top: 0;
   color: white;
-  left: 844px;
+  left: 40vw;
   font-size: 3em;
-  margin-top: 20px;
+  margin-top: 65px;
   z-index: 1000; }
 
 .contactus-container {
@@ -1488,23 +1488,31 @@ h3 {
   align-items: center;
   background-image: url(./Images/talal-tiled-background.svg);
   background-color: #7A2A3C; }
-  .contactus-container .moving-arrow {
-    width: 150px;
-    margin-left: 2vw; }
-    .contactus-container .moving-arrow a {
+  .contactus-container #home {
+    position: absolute;
+    display: flex;
+    flex-flow: row; }
+    .contactus-container #home .fa-arrow-left {
+      margin-left: 0.1vw;
       text-decoration: none;
       color: white;
-      font-size: 3em;
-      font-weight: bolder; }
-  .contactus-container #text {
-    color: white;
-    display: inline-block;
-    font-size: 2em;
-    position: absolute;
-    top: 0;
-    left: 95px;
-    margin-top: 28px;
-    text-decoration: none; }
+      font-size: 2em;
+      font-weight: bold;
+      transform: translateX(40px); }
+    .contactus-container #home #text {
+      color: white;
+      font-size: 2em;
+      text-decoration: none;
+      margin: 0; }
+    .contactus-container #home:hover .fa-arrow-left {
+      animation: mymove 1s infinite; }
+@keyframes mymove {
+  0% {
+    transform: translateX(40px); }
+  75% {
+    transform: translateX(15px); }
+  100% {
+    transform: translateX(40px); } }
   .contactus-container .contactForm {
     margin: 0 auto; }
     .contactus-container .contactForm .text p {
@@ -1581,7 +1589,6 @@ h3 {
     padding-top: 0.8em; }
 
   #wpcf7-f5-o1 > form > div.text-area {
-    width: 238px;
     margin: 0 auto;
     text-align: center;
     padding-top: 0px; } }
@@ -1596,17 +1603,39 @@ h3 {
     padding-top: 0px; }
 
   #wpcf7-f5-o1 > form > div.text-area > span > textarea {
-    height: 138px; } }
+    height: 115px; } }
 @media screen and (max-height: 320px) {
   #wpcf7-f5-o1 > form > div.text-area > span > textarea {
     height: 88px; } }
-h3 {
+body > div.contactus-container > div.contactForm > div.text {
+  margin-top: 70px; }
+
+@media (min-width: 760px) and (max-width: 1023px) {
+  .contact {
+    margin-top: 12vh;
+    left: 300px; } }
+@media screen and (max-width: 1023px) {
+  #home {
+    top: 18px; } }
+@media screen and (max-width: 811px) {
+  #home {
+    right: 375px;
+    left: -20px; }
+
+  .contact {
+    margin-top: 100px;
+    left: 125px; } }
+@media screen and (max-width: 667px) {
+  .contact {
+    margin-top: 100px;
+    left: 128px; } }
+.live {
   position: absolute;
   top: 0;
   color: white;
-  left: 844px;
+  left: 45vw;
   font-size: 3em;
-  margin-top: 20px;
+  margin-top: 6.5vh;
   z-index: 1000; }
 
 .live-container {
@@ -1617,16 +1646,8 @@ h3 {
   justify-content: center;
   align-items: center;
   background-image: url(./Images/talal-tiled-background.svg);
-  background-color: #7A2A3C; }
-
-.moving-arrow {
-  width: 150px;
-  margin-left: 2vw; }
-  .moving-arrow a {
-    text-decoration: none;
-    color: white;
-    font-size: 3em;
-    font-weight: bolder; }
+  background-color: #7A2A3C;
+  background-attachment: fixed; }
 
 #text {
   color: white;
@@ -1658,41 +1679,82 @@ body > div.live-container > table:nth-child(n) > tbody:nth-child(n) > tr > th {
 body > div.live-container > div.container-live > table > tbody:nth-child(n) > tr > th {
   background-color: grey; }
 
-h3 {
+body > div.live-container > div.container-live > p {
+  margin-top: 120px;
+  align-self: center;
+  color: white; }
+
+@media (max-width: 760px) {
+  .live {
+    margin-top: 90px; } }
+.music {
   position: absolute;
   top: 0;
   color: white;
-  left: 844px;
+  left: 45vw;
   font-size: 3em;
-  margin-top: 20px; }
+  margin-top: 4vh; }
 
 .music-container {
   background-image: url(./Images/talal-tiled-background.svg);
-  background-color: #7A2A3C; }
+  background-color: #7A2A3C;
+  background-attachment: fixed; }
 
-.moving-arrow {
-  width: 150px;
-  margin-left: 2vw; }
-  .moving-arrow a {
+#home-button {
+  position: absolute;
+  top: 25px;
+  display: flex;
+  flex-flow: row; }
+  #home-button .fa-arrow-left {
+    margin-left: 0.1vw;
     text-decoration: none;
     color: white;
-    font-size: 3em;
-    font-weight: bolder; }
+    font-size: 2em;
+    font-weight: bold;
+    transform: translateX(40px); }
+  #home-button #text {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 0; }
+  #home-button:hover .fa-arrow-left {
+    animation: mymove 1s infinite; }
 
-#text {
-  color: white;
-  display: inline-block;
-  font-size: 2em;
-  position: absolute;
-  top: 0;
-  left: 95px;
-  margin-top: 28px;
-  text-decoration: none; }
-
+@keyframes mymove {
+  0% {
+    transform: translateX(40px); }
+  75% {
+    transform: translateX(15px); }
+  100% {
+    transform: translateX(40px); } }
 .container-track {
   display: flex;
   flex-direction: column;
   width: 85%;
   margin: 0 auto;
   position: relative;
-  margin-top: 50px; }
+  margin-top: 90px; }
+
+@media screen and (max-width: 811px) {
+  .music {
+    left: 40vw;
+    margin-top: 6.5vh; }
+
+  #text {
+    left: 65px; }
+
+  #home-button {
+    right: 375px;
+    left: -20px; } }
+@media (min-width: 760px) and (max-width: 1023px) {
+  #home-button {
+    left: 0px; }
+
+  #text {
+    left: 80px; } }
+@media screen and (max-width: 1023px) {
+  #home-button {
+    top: 20px; } }
+@media (max-width: 760px) {
+  .media-icons {
+    right: 3px; } }

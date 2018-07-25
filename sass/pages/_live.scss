@@ -1,10 +1,10 @@
-h3 {
+ .live {
   position: absolute;
   top: 0;
   color: white;
-  left: 844px;
+  left: 45vw;
   font-size: 3em;
-  margin-top: 20px;
+  margin-top: 6.5vh;
   z-index: 1000;
 }
 .live-container {
@@ -16,16 +16,7 @@ h3 {
   align-items: center;
   background-image: url(./Images/talal-tiled-background.svg);
   background-color: #7A2A3C;
-}
-.moving-arrow {
-  width: 150px;
-  margin-left: 2vw;
-  a {
-    text-decoration: none;
-    color: white;
-    font-size: 3em;
-    font-weight: bolder;
-  }
+  background-attachment: fixed;
 }
 
 #text {
@@ -64,4 +55,16 @@ body > div.live-container > table:nth-child(n) > tbody:nth-child(n) > tr > th {
 
 body > div.live-container > div.container-live > table > tbody:nth-child(n) > tr > th {
   background-color: grey;
+}
+
+body > div.live-container > div.container-live > p {
+  margin-top: 120px;
+  align-self: center;
+  color: white;
+}
+
+@include mobile {
+  .live {
+    margin-top: 90px;
+  }
 }

@@ -1,12 +1,11 @@
 <?php get_header(); ?>
-<h3>MUSIC</h3>
+<h2 class="music">MUSIC</h4>
 <div class="music-container">
   <div>.</div>
-    <div class="moving-arrow">
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">&#8592;</a>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-    </div>
+  <div id="home-button">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="fas fa-arrow-left"></a>
     <a id="text" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Home</a>
+  </div>
   <div class="container-track">
     <?php
     if(have_posts()){
