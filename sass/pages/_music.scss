@@ -56,7 +56,7 @@
   width: 85%;
   margin: 0 auto;
   position: relative;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 811px) {
@@ -92,4 +92,8 @@
   .media-icons {
     right: 3px;
   }
+}
+
+body > div.music-container > div.container-track > p:nth-child(n) {
+  margin-bottom: -0.5rem;
 }

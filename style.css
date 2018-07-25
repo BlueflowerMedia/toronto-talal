@@ -1436,6 +1436,8 @@ footer {
     top: 0;
     left: 0;
     z-index: -100;
+    width: 100vw;
+    height: 100vh;
     max-height: 100%; }
     @media screen and (max-width: 1025px) {
       .main-container #myVideo video {
@@ -1742,7 +1744,7 @@ body > div.live-container > div.container-live > p {
   width: 85%;
   margin: 0 auto;
   position: relative;
-  margin-top: 90px; }
+  margin-top: 70px; }
 
 @media screen and (max-width: 811px) {
   .music {
@@ -1767,3 +1769,5 @@ body > div.live-container > div.container-live > p {
 @media (max-width: 760px) {
   .media-icons {
     right: 3px; } }
+body > div.music-container > div.container-track > p:nth-child(n) {
+  margin-bottom: -0.5rem; }
