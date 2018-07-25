@@ -14,7 +14,7 @@
     <div class="container-content">
       <div class="talal">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-          <?php echo file_get_contents(get_template_directory_uri()."/images/talal-logo.svg") ?>
+          <?php echo file_get_contents(get_template_directory_uri()."/talal-logo.svg") ?>
 
         </a>
         <div class="para">
