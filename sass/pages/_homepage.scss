@@ -10,12 +10,11 @@
   #myVideo {
     @include position(absolute, $top: 0, $left: 0);
     z-index: -100;
-    // width: 100vw;
-    // height: 100vh;
-    max-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    // max-height: 100%;
     video {
     width: 100vw;
-
       @media screen and (max-width: 1025px) {
         width: auto;
         height: 100%;
