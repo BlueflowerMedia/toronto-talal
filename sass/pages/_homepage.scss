@@ -21,12 +21,13 @@
 
    .container-content {
      .talal {
-       img:hover {
-        color: green;
-        background-color: transparent;
-      }
+       #pic-logo:hover {
+         color: #7A2A3C;
+         background-color: white;
+         transform: skewX(10deg);
+       }
       img:active {
-          color: yellow;
+          color: white;
           background-color: transparent;
       }
         #pic-logo {
@@ -51,12 +52,12 @@
        }
        a:hover {
         color: black;
-        background-color: white;
+        background-color: #7A2A3C;
         transform: skewX(10deg);
       }
 
       a:active {
-          color: yellow;
+          color: #7A2A3C;
           background-color: white;
           transform: skewX(10deg);
 

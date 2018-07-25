@@ -14,6 +14,6 @@
 <!-- #content -->
 <div class="margin-for-footer"></div>
 <footer id="colophon" class="site-footer">
-    <p>Website Designed By: BlueFlower Media</p>
+    <p>Website Designed By: <a href="https://www.blueflowermedia.com/" target="_blank">BlueFlower Media</p>
 </footer>
 <?php wp_footer(); ?>

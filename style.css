@@ -1411,12 +1411,17 @@ body > div.media-icons > a.fab.fa-soundcloud.fa-animated:active {
 footer p {
   color: white;
   font-family: 'Exo 2', sans-serif;
-  font-style: italic; }
+  font-style: italic;
+  text-decoration: none; }
 
 footer {
   position: absolute;
   bottom: 0;
   left: 25px; }
+
+#colophon > p > a {
+  text-decoration: none;
+  color: white; }
 
 .main-container {
   display: flex;
@@ -1436,11 +1441,12 @@ footer {
       .main-container #myVideo video {
         width: auto;
         height: 100%; } }
-  .main-container .container-content .talal img:hover {
-    color: green;
-    background-color: transparent; }
+  .main-container .container-content .talal #pic-logo:hover {
+    color: #7A2A3C;
+    background-color: white;
+    transform: skewX(10deg); }
   .main-container .container-content .talal img:active {
-    color: yellow;
+    color: white;
     background-color: transparent; }
   .main-container .container-content .talal #pic-logo {
     width: 18em;
@@ -1460,10 +1466,10 @@ footer {
       padding: 0.4em; }
     .main-container .container-content .para a:hover {
       color: black;
-      background-color: white;
+      background-color: #7A2A3C;
       transform: skewX(10deg); }
     .main-container .container-content .para a:active {
-      color: yellow;
+      color: #7A2A3C;
       background-color: white;
       transform: skewX(10deg); }
 
