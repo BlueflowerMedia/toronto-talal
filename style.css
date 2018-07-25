@@ -1436,10 +1436,11 @@ footer {
     top: 0;
     left: 0;
     z-index: -100;
-    width: 100vw;
-    height: 100vh; }
+    max-height: 100%; }
     .main-container #myVideo video {
-      width: 100vw; }
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover; }
       @media screen and (max-width: 1025px) {
         .main-container #myVideo video {
           width: auto;
@@ -1745,7 +1746,8 @@ body > div.live-container > div.container-live > p {
   width: 85%;
   margin: 0 auto;
   position: relative;
-  margin-top: 70px; }
+  margin-top: 70px;
+  padding-bottom: 50px; }
 
 @media screen and (max-width: 811px) {
   .music {

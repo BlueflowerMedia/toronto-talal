@@ -10,18 +10,10 @@
   #myVideo {
     @include position(absolute, $top: 0, $left: 0);
     z-index: -100;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    overflow: hidden;
-    // max-height: 100%;
+    max-height: 100%;
     video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      // width: 100vw;
+      width: 100vw;
+      height: 100vh;
       object-fit: cover;
       @media screen and (max-width: 1025px) {
         width: auto;
@@ -29,6 +21,7 @@
       }
     }
   }
+
 
    .container-content {
      .talal {
