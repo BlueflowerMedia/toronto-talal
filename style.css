@@ -1443,6 +1443,7 @@ footer {
         height: 100%; } }
   .main-container .container-content .talal a svg {
     fill: white;
+    background: black;
     width: 400px;
     height: 150px;
     transform: skewX(-10deg); }
@@ -1634,6 +1635,9 @@ body > div.contactus-container > div.contactForm > div.text {
   .contact {
     margin-top: 100px;
     left: 128px; } }
+body > div.contactus-container > div.contactForm > div.text {
+  margin-top: 100px; }
+
 .live {
   position: absolute;
   top: 0;
