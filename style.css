@@ -1441,18 +1441,18 @@ footer {
       .main-container #myVideo video {
         width: auto;
         height: 100%; } }
-  .main-container .container-content .talal #pic-logo:hover {
-    color: #7A2A3C;
+  .main-container .container-content .talal a svg {
+    fill: white;
+    width: 400px;
+    height: 150px;
+    transform: skewX(-10deg); }
+  .main-container .container-content .talal svg:hover {
+    fill: black;
     background-color: white;
     transform: skewX(10deg); }
-  .main-container .container-content .talal img:active {
-    color: white;
-    background-color: transparent; }
-  .main-container .container-content .talal #pic-logo {
-    width: 18em;
-    height: auto;
-    background: transparent;
-    -webkit-filter: invert(100%); }
+  .main-container .container-content .talal svg:active {
+    fill: #7A2A3C;
+    background-color: white; }
   .main-container .container-content .para {
     padding-top: 2em;
     text-align: center;

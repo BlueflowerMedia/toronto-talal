@@ -21,23 +21,26 @@
 
    .container-content {
      .talal {
-       #pic-logo:hover {
-         color: #7A2A3C;
+       a {
+         svg {
+            fill: white;
+            width: 400px;
+            height: 150px;
+            transform: skewX(-10deg);
+         }
+       }
+
+       svg:hover {
+         fill: black;
          background-color: white;
          transform: skewX(10deg);
        }
-      img:active {
-          color: white;
-          background-color: transparent;
-      }
-        #pic-logo {
-          width: 18em;
-          height: auto;
-          background: transparent;
-          -webkit-filter: invert(100%);
-        }
 
+      svg:active {
+        fill: #7A2A3C;
+        background-color: white;
       }
+    }
      .para {
        padding-top: 2em;
        text-align: center;
